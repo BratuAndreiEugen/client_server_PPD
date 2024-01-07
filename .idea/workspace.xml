@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="533e2de9-dcc9-452f-9c92-7360a31099b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/StartAllClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/StartClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/org/example/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/org/example/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/requests/LeaderboardRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/requests/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/requests/UpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/responses/FinalContentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/responses/LeaderboardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/responses/OkResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/responses/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/StartServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2aUnLjywrdlZtg1fP8qJAWf1iXf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Proiecte SSD/PPD/P1/Client/src/main/java/org/example",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3448276"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\java\org\example" />
+      <recent name="C:\Proiecte SSD\PPD\P1\Networking\src\main\java\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\resources\inputs_test\c2" />
+      <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\resources\inputs_test\c1" />
+      <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\resources" />
+      <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\java\org\example" />
+      <recent name="C:\Proiecte SSD\PPD\P1\Client\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AllClients">
+    <configuration name="AllClients" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartAllClients" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs 5 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllMockClients" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartAllClients" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs_test 2 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartServer" />
+      <module name="P1.Server.main" />
+      <option name="PROGRAM_PARAMETERS" value="4 4 4 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMock" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartServer" />
+      <module name="P1.Server.main" />
+      <option name="PROGRAM_PARAMETERS" value="4 4 4 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tara1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartClient" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs/c1 1 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tara2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartClient" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs/c2 2 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tara3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartClient" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs/c3 3 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tara4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartClient" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs/c4 4 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tara5" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartClient" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs/c5 5 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaraMock1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartClient" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs_test/c1 1 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaraMock2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.StartClient" />
+      <module name="P1.Client.main" />
+      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs_test/c2 2 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Tara4" />
+      <item itemvalue="Application.Tara5" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.ServerMock" />
+      <item itemvalue="Application.TaraMock1" />
+      <item itemvalue="Application.TaraMock2" />
+      <item itemvalue="Application.AllClients" />
+      <item itemvalue="Application.AllMockClients" />
+      <item itemvalue="Application.Tara2" />
+      <item itemvalue="Application.Tara3" />
+      <item itemvalue="Application.Tara1" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="533e2de9-dcc9-452f-9c92-7360a31099b3" name="Changes" comment="" />
+      <created>1704381972854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704381972854</updated>
+      <workItem from="1704381974775" duration="672000" />
+      <workItem from="1704641100428" duration="26402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

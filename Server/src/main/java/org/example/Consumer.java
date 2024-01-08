@@ -29,13 +29,13 @@ public class Consumer extends Thread {
     @Override
     public void run() {
         while (!queue.isEmpty() || counter.get() > 0) {
-            System.out.println("COADA " + queue.isEmpty());
-            System.out.println("COUNTER CONS" + counter.get());
+//            System.out.println("COADA " + queue.isEmpty());
+//            System.out.println("COUNTER CONS" + counter.get());
             try {
                 listManager.processParticipant(queue.pop());
             } catch (Exception e) {
-                System.out.println("THREW EXCEPTION IN CONSUMER");
-                System.out.println(e.getMessage());
+//                System.out.println("THREW EXCEPTION IN CONSUMER");
+//                System.out.println(e.getMessage());
             }
         }
         System.out.println("Consumer Finished");

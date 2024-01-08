@@ -15,9 +15,9 @@ public class Participant implements Serializable, Comparable<Participant> {
 
     @Override
     public int compareTo(Participant p) {
-        int res = signum(this.score.compareTo(p.getScore()));
+        int res = signum(p.getScore().compareTo(this.score));
         if (res == 0)
-            return signum(this.id.compareTo(p.getId()));
+            return signum(p.getId().compareTo(this.id));
 
         return res;
     }

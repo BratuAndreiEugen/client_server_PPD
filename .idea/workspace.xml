@@ -5,45 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="533e2de9-dcc9-452f-9c92-7360a31099b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/StartAllClients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/StartClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/inputs/c1/RezultateC1_P9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/org/example/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/org/example/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/requests/LeaderboardRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/requests/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/requests/UpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/responses/FinalContentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/responses/LeaderboardResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/responses/OkResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/org/example/objectprotocol/responses/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/StartServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/outputs/parallelResult.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/outputs/sequentialResult.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/FileUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/org/example/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/org/example/StartAllClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/StartAllClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/org/example/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/org/example/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/org/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/org/example/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/org/example/StartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/StartServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/org/example/ThreadSafeListManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/ThreadSafeListManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/org/example/ThreadSafeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/org/example/ThreadSafeQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +53,8 @@
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Proiecte SSD/PPD/P1/Client/src/main/java/org/example",
+    "last_opened_file_path": "C:/Proiecte SSD/PPD/P1/Client/build/classes/java/main/org/example",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3448276"
@@ -88,15 +62,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Proiecte SSD\PPD\P1\Client\build\classes\java\main\org\example" />
       <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\java\org\example" />
       <recent name="C:\Proiecte SSD\PPD\P1\Networking\src\main\java\org\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\resources\outputs" />
       <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\resources\inputs_test\c2" />
       <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\resources\inputs_test\c1" />
       <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\resources" />
       <recent name="C:\Proiecte SSD\PPD\P1\Client\src\main\java\org\example" />
-      <recent name="C:\Proiecte SSD\PPD\P1\Client\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -109,7 +84,7 @@
     <configuration name="AllClients" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.StartAllClients" />
       <module name="P1.Client.main" />
-      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs 5 1" />
+      <option name="PROGRAM_PARAMETERS" value="inputs 5 1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,7 +92,7 @@
     <configuration name="AllMockClients" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.StartAllClients" />
       <module name="P1.Client.main" />
-      <option name="PROGRAM_PARAMETERS" value="Client/src/main/resources/inputs_test 2 1" />
+      <option name="PROGRAM_PARAMETERS" value="inputs_test 2 1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,7 +100,7 @@
     <configuration name="Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.StartServer" />
       <module name="P1.Server.main" />
-      <option name="PROGRAM_PARAMETERS" value="4 4 4 5" />
+      <option name="PROGRAM_PARAMETERS" value="4 8 4 5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704381972854</updated>
       <workItem from="1704381974775" duration="672000" />
-      <workItem from="1704641100428" duration="26402000" />
+      <workItem from="1704641100428" duration="32696000" />
     </task>
     <servers />
   </component>

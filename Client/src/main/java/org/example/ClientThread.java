@@ -35,10 +35,11 @@ public class ClientThread implements Runnable{
             output.flush();
             ObjectInputStream input = new ObjectInputStream(socket.getInputStream());
 
-            File[] files = new File(filePath + "/c" + countryNr).listFiles();
+            File[] files = new File(filePath).listFiles();
             int country = Integer.parseInt(countryNr);
             List<Participant> entries = new ArrayList<>();
             System.out.println("STARTED CLIENT " + countryNr);
+            System.out.println(filePath);
             for (File file : files) {
                 System.out.println("NEXT FILE ");
                 try(BufferedReader bufferedReader = new BufferedReader(new FileReader(file))){
@@ -53,10 +54,11 @@ public class ClientThread implements Runnable{
 
             }
 
+
             for(int i = 0; i < entries.size(); i+= 20){
                 int endIndex = Math.min(i + 20,entries.size());
                 List<Participant> batch = new ArrayList<>(entries.subList(i, endIndex));
-                output.writeObject(new UpdateRequest(entries, country));
+                output.writeObject(new UpdateRequest(batch, country));
                 output.flush();
                 Thread.sleep(delayBetweenBatches);
             }
@@ -70,14 +72,15 @@ public class ClientThread implements Runnable{
 
             output.writeObject(new FinalRequest());
             output.flush();
-            while(true) {
-                try {
-                    response = input.readObject();
-                    break;
-                }catch (Exception e){
-                    continue;
-                }
-            }
+//            while(true) {
+//                try {
+//                    response = input.readObject();
+//                    break;
+//                }catch (Exception e){
+//                    continue;
+//                }
+//            }
+            response = input.readObject();
             if (response instanceof FinalContentResponse finalContentResponse) {
                 System.out.println("[" + country + "]" + " Am primit finalContentResponse: " + finalContentResponse.getParticipantLeaderboardContent());
             }

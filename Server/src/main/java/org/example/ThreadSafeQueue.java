@@ -42,7 +42,7 @@ public class ThreadSafeQueue<T> {
 
     T pop() throws Exception {
         lock.lock();
-        System.out.println("CAUGHT LOCK");
+//        System.out.println("CAUGHT LOCK");
         try {
             while (isEmpty()) {
                 long timeout = 2000;
@@ -58,7 +58,7 @@ public class ThreadSafeQueue<T> {
         }
         finally {
             lock.unlock();
-            System.out.println("FREED LOCK");
+//            System.out.println("FREED LOCK");
         }
     }
 }

@@ -20,7 +20,7 @@ public class ThreadSafeListManager {
             System.out.println("RECEIVED NULL PARTCIPANT");
             return;
         }
-        System.out.println("PROCESSING PARTICIPANT");
+//        System.out.println("PROCESSING PARTICIPANT");
         synchronized (lst) {
             int idx = lst.indexOf(participant);
             if (idx == -1) {
@@ -34,6 +34,7 @@ public class ThreadSafeListManager {
                     lst.remove(participant);
                     synchronizedBlackListSet.add(participant);
                 } else {
+//                    System.out.println("UPDATING PARTICIPANT");
                     participant.setScore(participant.getScore() + lst.get(idx).getScore());
                     lst.set(idx, participant);
                 }

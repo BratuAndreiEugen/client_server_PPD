@@ -45,7 +45,7 @@ public class Server {
     public Server(int port, int refresh_rate, ThreadSafeQueue<Participant> queue, ThreadSafeLinkedList<Participant> lst, Set<Participant> synchronizedBlackListSet, AtomicInteger counter, Integer maxClients) {
         this.port = port;
         this.scheduledExecutorService = Executors.newScheduledThreadPool(1);
-        this.scheduledFuture = scheduledExecutorService.scheduleAtFixedRate(new CountryRanking(), refresh_rate, refresh_rate, TimeUnit.MILLISECONDS);
+        this.scheduledFuture = scheduledExecutorService.scheduleAtFixedRate(new CountryRanking(), 0, refresh_rate, TimeUnit.MILLISECONDS);
         this.queue = queue;
         this.lst = lst;
         this.synchronizedBlackListSet = synchronizedBlackListSet;
@@ -85,23 +85,37 @@ public class Server {
 
             while(!finishedList.get()){
                 Thread.sleep(1000);
-                System.out.println("FINISHED LIST" + finishedList.get());
-                System.out.println("COUNTER" + counter.get());
             }
 
             scheduledFuture.cancel(true);
             scheduledExecutorService.shutdown();
 
+
+
             /// TODO: Send final files
             synchronized (lst){
-                Collections.sort(lst.getJavaLinkedList());
+                lst.getJavaLinkedList().sort(null);
             }
+
+            FileUtility.writeToFile(lst.getJavaLinkedList(),"C:\\Proiecte SSD\\PPD\\P1\\Client\\src\\main\\resources\\outputs\\parallelResult.txt");
+            if(FileUtility.checkEq("C:\\Proiecte SSD\\PPD\\P1\\Client\\src\\main\\resources\\outputs\\parallelResult.txt", "C:\\Proiecte SSD\\PPD\\P1\\Client\\src\\main\\resources\\outputs\\sequentialResult.txt")){
+                System.out.println("CORRECT RESULT");
+            }else{
+                System.out.println("INCORRECT RESULT");
+            }
+
+
             for(Socket cl : connectedClients){
                 ObjectOutputStream output = new ObjectOutputStream(cl.getOutputStream());
                 synchronized (output){
                     output.writeObject(new FinalContentResponse(countryScoreList, lst.getJavaLinkedList()));
                     output.flush();
+                    output.close();
                 }
+            }
+            exec.shutdown();
+            for(int i = 0; i < pW; i++){
+                consumers[i].join();
             }
         }
         catch (Exception e){
@@ -182,14 +196,14 @@ public class Server {
             synchronized (countryScoreList) {
                 countryScoreList.clear();
                 synchronized (lst) {
-                    for (Participant p : lst.getJavaLinkedList()) {
-                        System.out.println(p);
-                    }
+//                    for (Participant p : lst.getJavaLinkedList()) {
+//                        System.out.println(p);
+//                    }
                     int cn = 0;
                     for (Participant p : lst.getJavaLinkedList()) {
                         Integer country = p.getCountry();
                         Integer prev_score = countryScoreList.get(country);
-                        System.out.println("[prev " + country + " ]  " + prev_score);
+//                        System.out.println("[prev " + country + " ]  " + prev_score);
                         cn += 1;
                         if (prev_score != null) {
                             countryScoreList.put(country, prev_score + p.getScore());
@@ -198,7 +212,7 @@ public class Server {
                         }
 
                     }
-                    System.out.println(cn);
+//                    System.out.println(cn);
                 }
                 countryScoreList = countryScoreList.entrySet()
                         .stream()
